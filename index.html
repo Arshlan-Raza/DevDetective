@@ -19,68 +19,76 @@
         </div>
 
         <!-- input and search  -->
-        <form>
+        <form search-container>
             <img src="./assets/images/search-icon.svg" alt="">
             <input placeholder="Enter a GitHub username..." data-input>
-            <button>Search</button>
+            <button button-search>Search</button>
             <div error-container>
                 <p>no search result</p>
             </div>
         </form>
 
         <!-- card  -->
-        <div>
-            <!-- name  -->
-            <h3 profile-name></h3>
+        <div profile-container>
 
+            <div>
+                <img src="" alt="" profile-avatar>
+            </div>
+
+            <!-- name  -->
+            <div>
+                <h3 profile-name></h3>
+                <a href="" user-profile-link></a>
+            </div>
+            
             <!-- joined -->
             <p profile-joined></p>
 
             <!-- user profile link  -->
-            <a href="" user-profile-link></a>
+            
 
             <!-- about the profile  -->
             <p about-profile></p>
 
             <!-- followers and following tab  -->
-            <div info-container>
+            <div >
                 <div repos>
-                    <p></p>
-                    <p></p>
+                    <p>Repos</p>
+                    <p data-repos></p>
                 </div>
                 <div followers>
-                    <p></p>
-                    <p></p>
+                    <p>Followers</p>
+                    <p data-followers></p>
                 </div>
                 <div following>
-                    <p></p>
-                    <p></p>
+                    <p>Following</p>
+                    <p data-following></p>
                 </div>
 
             </div>
 
             <!-- location  -->
             <div location-container>
-                <img src="" alt="">
-                <a href=""></a>
+                <img src="./assets/images/location-icon.svg" alt="">
+                <p location></p>
             </div>
 
             <!-- page  -->
-            <div user-page>
-                <img src="" alt="">
-                <a href=""></a>
+            <div page>
+                <img src="./assets/images/website-icon.svg" alt="">
+                <a href="" user-page></a>
             </div>
 
             <!-- twitter handle  -->
             <div user-twitter>
-                <img src="" alt="">
-                <a href=""></a>
+                <img src="./assets/images/twitter-icon.svg" alt="">
+                <a href="" data-twitter></a>
             </div>
 
             <!-- company  -->
             <div user-company>
-                <img src="" alt="">
-                <a href=""></a>
+                <img src="./assets/images/company-icon.svg" alt="">
+                <a href="" data-company></a>
             </div>
 
         </div>
